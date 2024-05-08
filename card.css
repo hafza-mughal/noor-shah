@@ -1,0 +1,61 @@
+ 
+
+ *{
+
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.our-product{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.head-our{
+    font-size: 6rem;
+    color: #00555A;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    position: relative;
+
+}
+.card{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+ 
+  
+}
+.card-img{
+  width: 45%;
+  
+ 
+}
+.card-text{
+    width: 50%;
+   
+    
+  }
+.shop-now-1{
+    color: white;
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 8.9rem;
+   
+    
+}
+
+.shop-now-2{
+    color:white;
+    margin-left: 17.5rem;
+    position: absolute;
+    top: 10rem;
+   
+}
+
