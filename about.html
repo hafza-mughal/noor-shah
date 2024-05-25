@@ -10,49 +10,55 @@
      <!-- animation-links -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+     <!-- /* Import Roboto Serif font from Google Fonts */ -->
+     <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Futura&display=swap');
+     ">
+     
 
    
 </head>
 <body>
 
     
-    <header>
-        <nav class="navbar">
-      
-              <div class="fan-text">Fan</div>
-              <img src="logo2.png" alt="">
-              <div class="fan-text">Fan</div>
-         
-          <div class="search-bar">
-               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            <input type="text" placeholder="Find Your Favourite Fan...">
-          </div>
-        </nav>
-        <nav class="navbar2">
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Ceiling Fan</a></li>
-            <li><a href="#">Table Fan</a></li>
-            <li><a href="#">Exhuast Fan</a></li>
-            <li><a href="#">Bracket fan</a></li>
-            <li><a href="#">About</a></li>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo2.png" alt="">
+            <h1 class="logo-text">fanOfan</h1>
+        </div>
+
+        <div class="nav-link">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Cateogry</a>
+                <div class="dropdown-content">
+                    <a href="#">Ceiling Fan</a>
+                    <a href="#">Table Fan</a>
+                    <a href="#">Exhausted Fan</a>
+                    <a href="#">Bracket Fan</a>
+                </div>
+            </li>
+            <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="">Gallary</a></li>
-          </ul>
-        </nav>
-      </header>
+            <li><a href="#">About</a></li>
+        </ul>
+        </div>
+    </nav>
 
  
-<!-- cover-section-start  -->
 
-<div class="background">
+  
     
-    <img src="card 1.jpg"  alt="Ceiling Fan">
-   
-  </div>
-
-
+ <div class="cover-container">
+    <img src="about cover 2.jpg" alt="Cover Image">
+    <div class="cover-overlay"></div>
+    <div class="cover-text">
+      
+      <p>"With every turn, fans spin tales of cool comfort,<br> weaving breezy whispers that soothe the soul <br> and refresh the spirit."</p>
+      
+    </div>
+  </div> 
+    
 
 
 
@@ -75,8 +81,8 @@
 
 
 <h1><span>Why Choose   </span>    Fan O Fan</h1 >
-<hr>
-<hr>
+
+
 
 <section>
 
@@ -87,7 +93,7 @@
     <div class="column image-column">
       <img src="2ns fan.webp" alt="Fan Image">
     </div>
-    <div class="column text-column">
+    <div class=" column text-column">
       <h1><strong>THE FAN THAT KEEPS YOU RUNNING</strong></h1>
       <br>
       <p>FANoFAN started by creating safer, more productive work environments in industrial facilities. But we didn’t stop there. Go to work, hit the gym, or enjoy a night on the town and chances are you’ll see a product of FANoFAN [overhead] keeping the peace smoothly and silently. <br><br>
@@ -100,19 +106,20 @@
 
 <!-- Our Speciality Section -->
 <h1><span>Our    </span>    Speciality</h1>
-<hr>
-<hr>
+
 
 <section>
   
   
-  <div class="container-2">
-    <div class="row">
+  <!-- <div class="container-2"> -->
+    <div class="row9">
       <div class="image-column">
         <img src="inverter_fan-removebg-preview.png" alt="Fan Image">
       </div>
+
+
       <div class="text-column">
-        <div class="icon-block">
+       
           <div class="icon">
             <img src="about-icon-1.webp" alt="Icon 1">
             <div class="text">
@@ -120,6 +127,8 @@
               <p>Built by hand with aircraft-grade aluminum airfoils and stainless steel components.</p>
             </div>
           </div>
+
+
           <div class="icon">
             <img src="about-icon-2.png" alt="Icon 2">
             <div class="text">
@@ -127,6 +136,8 @@
               <p>Keeping your environment at a standard temperature to suite your living.</p>
             </div>
           </div>
+
+
           <div class="icon">
             <img src="about-icon-3.png" alt="Icon 3">
             <div class="text">
@@ -134,17 +145,42 @@
               <p>High-tech security features safeguard against over-spinning or misalignment in heavy winds.</p>
             </div>
           </div>
-        </div>
+
       </div>
     </div>
-  </div>
+  <!-- </div> -->
+
+<!-- 
+<div class="row">
+  <div class="column8">
+    <img src="inverter_fan-removebg-preview.png" alt="">
+   </div>
+
+   <div class="column9">
+    <span> <img src="about-icon-1.webp" alt="" class="icon5"></span>
+     <span><h2>Excellence in every spin</h2>
+    <p>Built by hand with aircraft-grade aluminum airfoils and stainless steel components.</p></span><br><br>
+  
+    <span> <img src="about-icon-1.webp" alt="" class="icon5"></span>
+    <span><h2>Excellence in every spin</h2>
+   <p>Built by hand with aircraft-grade aluminum airfoils and stainless steel components.</p></span><br><br>
+    
+
+   <span> <img src="about-icon-1.webp" alt="" class="icon5"></span>
+   <span><h2>Excellence in every spin</h2>
+  <p>Built by hand with aircraft-grade aluminum airfoils and stainless steel components.</p></span><br><br>
+
+</div>
+</div> -->
+
+
 </section>
 
 <!-- Our Experience Section -->
 
 <h1><span>Our    </span>    Experience</h1>
-<hr>
-<hr>
+
+
 <section>
 
  
@@ -183,13 +219,14 @@
 
 <!-- Our Team Section -->
 <h1><span class="abc">Our    </span>    Team</h1>
-<hr>
-<hr>
+
 
 <section>
   
   
   <div class="container-3" >
+
+         <!-- card-1 -->
     <div class="id-card">
       <div class="circle-pic">
         <img src="team 1.jpg" alt="Profile Picture">
@@ -198,6 +235,9 @@
         <h1><strong>Ismail Sasmaz</strong></h1>
         <p>BUSINESS EXECUTIVE</p>
       </div>
+
+            <!-- card-2 -->
+             
       <div class="id-icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>
@@ -218,6 +258,9 @@
         <i class="fa-brands fa-instagram"></i>
       </div>
     </div>
+             
+           <!-- card-3 -->
+           
     <div class="id-card">
       <div class="circle-pic">
         <img src="team 3.jpg" alt="Profile Picture">
@@ -232,6 +275,10 @@
         <i class="fa-brands fa-instagram"></i>
       </div>
     </div>
+
+          
+             <!-- card-4 -->
+
     <div class="id-card">
       <div class="circle-pic">
         <img src="team 4.jpg" alt="Profile Picture">
@@ -259,8 +306,8 @@
 
 
   <h1><span class="abc">Testimonial    </span>    Reviews</h1>
-<hr>
-<hr>
+
+
   <section class="testimonial-section">
     <div class="container">
 
@@ -325,5 +372,7 @@
 
 
 </section>
+
+
 </body>
 </html>
